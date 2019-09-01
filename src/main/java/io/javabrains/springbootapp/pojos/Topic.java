@@ -1,6 +1,15 @@
 package io.javabrains.springbootapp.pojos;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+/*
+ * This is the model or Entity class
+ * 
+ */
+@Entity
 public class Topic {
+	@Id
 	String id;
 	String name;	
 	String description;
